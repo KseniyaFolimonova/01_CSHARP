@@ -4,3 +4,7 @@
 ```sh
 git init
 ```
+Добавление файла в индексацию GIT
+```sh
+git add (faleName)
+```
