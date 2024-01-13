@@ -20,3 +20,7 @@ git log
 ```sh
 git log --oneline
 ```
+Вызвать редакцию файла по commit
+```sh
+git checkout
+```
