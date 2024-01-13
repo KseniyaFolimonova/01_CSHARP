@@ -16,3 +16,7 @@ git commit -m "Massage"
 ```sh
 git log 
 ```
+Сократить отображение всех записанных commit в одну строку
+```sh
+git log --oneline
+```
