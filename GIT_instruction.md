@@ -12,3 +12,7 @@ git add (faleName)
 ```sh
 git commit -m "Massage"
 ```
+Проверить все внесенные изменения \ commit
+```sh
+git log 
+```
