@@ -8,3 +8,7 @@ git init
 ```sh
 git add (faleName)
 ```
+Записать внесеннные изменения и провоментировать
+```sh
+git commit -m "Massage"
+```
