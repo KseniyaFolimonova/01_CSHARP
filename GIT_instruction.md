@@ -26,11 +26,11 @@ git checkout
 ```
 Создать новую ветку от основной, в которой будут вноситься какие-то изменения
 ```sh
-git branch BranchName
+git branch <BranchName>
 ```
 Перенести или присоеденить информацию с одной ветки на другую
 ```sh
-git merge BranchName
+git merge <BranchName>
 ```
 Отображение всех веток 
 ```sh
