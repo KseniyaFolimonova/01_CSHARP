@@ -32,3 +32,7 @@ git branch BranchName
 ```sh
 git merge BranchName
 ```
+Отображение всех веток 
+```sh
+git branch
+```
