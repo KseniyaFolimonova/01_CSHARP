@@ -28,3 +28,7 @@ git checkout
 ```sh
 git branch BranchName
 ```
+Перенести или присоеденить информацию с одной ветки на другую
+```sh
+git merge BranchName
+```
