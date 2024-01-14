@@ -36,3 +36,7 @@ git merge BranchName
 ```sh
 git branch
 ```
+Переключение с ветки на ветку
+```sh
+git checkout <BranchName>
+```
