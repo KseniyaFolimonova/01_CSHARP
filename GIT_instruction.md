@@ -24,3 +24,7 @@ git log --oneline
 ```sh
 git checkout
 ```
+Создать новую ветку от основной, в которой будут вноситься какие-то изменения
+```sh
+git branch BranchName
+```
