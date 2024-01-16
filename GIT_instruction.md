@@ -40,7 +40,7 @@ git branch
 ```sh
 git checkout <BranchName>
 ```
-Создание новой ветки
+Удаление ветки
 ```sh
-git branch <Branch_Name>
+git branch -d <Branch_Name>
 ```
