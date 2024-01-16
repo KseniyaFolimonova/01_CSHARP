@@ -20,6 +20,10 @@ git log
 ```sh
 git log --oneline
 ```
+Посмотеть какие commit были созданы на каких ветках и на каком этапе они были объеденины
+```sh
+git log --oneline --graph
+```
 Вызвать редакцию файла по commit
 ```sh
 git checkout
