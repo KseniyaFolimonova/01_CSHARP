@@ -10,7 +10,7 @@ git add (faleName)
 ```
 Записать внесеннные изменения и прокомментировать
 ```sh
-git commit -m "Massage"
+git commit -m "Massage text"
 ```
 Проверить все внесенные изменения \ commit
 ```sh
