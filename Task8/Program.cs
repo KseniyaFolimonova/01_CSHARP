@@ -58,7 +58,7 @@ return (FindMax);
         {
             System.Console.WriteLine("нечетное");
         }
-*/
+
         int number = 8;
         int i = 1;
         while (i <= number)
@@ -67,3 +67,31 @@ return (FindMax);
                 Console.Write(i + " ");
             i += 1;
         }
+
+int a = 1;
+int b = 6;
+int c = 7;
+int FindMax = Math.Max(Math.Max(b, c), a);
+
+return FindMax;
+*/
+int a = 1;
+int b = 6;
+int c = 7;
+FindMax = 0;
+
+if (a > b & a > c)
+{
+    FindMax = a;
+    return FindMax;
+}
+else if (b > a & b > c)
+{
+    FindMax = b;
+    return FindMax;
+}
+else
+{
+    FindMax = c;
+    return FindMax;
+}
