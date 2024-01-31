@@ -74,7 +74,7 @@ int c = 7;
 int FindMax = Math.Max(Math.Max(b, c), a);
 
 return FindMax;
-*/
+
 int a = 1;
 int b = 6;
 int c = 7;
@@ -94,4 +94,19 @@ else
 {
     FindMax = c;
     return FindMax;
+}
+*/
+
+
+
+int a = 1;
+int b = 6;
+int c = 7;
+        FindMax = a;
+        if (a < b)
+{    
+            FindMax = b;
+            if (b < c)
+                FindMax = c;
+        return FindMax;
 }
