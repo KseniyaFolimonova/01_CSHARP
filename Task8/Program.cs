@@ -102,11 +102,16 @@ else
 int a = 1;
 int b = 6;
 int c = 7;
-        FindMax = a;
-        if (a < b)
-{    
-            FindMax = b;
-            if (b < c)
-                FindMax = c;
-        return FindMax;
+int maxNumber = a;
+
+if (a < b)
+{
+    maxNumber = b;
 }
+
+if (maxNumber < c) // Сравниваем с текущим максимальным числом
+{
+    maxNumber = c;
+}
+
+return maxNumber;
