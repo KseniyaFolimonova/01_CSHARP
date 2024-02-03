@@ -9,6 +9,6 @@ while (i < n)
     {
         max = arr[i];
     }
-    i = i +1;
+    i = i + 1;
 }
 System.Console.WriteLine(max);
