@@ -1,4 +1,4 @@
-﻿int[] arr = new int[5];
+﻿/*int[] arr = new int[5];
 arr[0] = 5;
 arr[1] = 7;
 arr[2] = 8;
@@ -13,3 +13,12 @@ System.Console.WriteLine(arr[4]);
 
 int[] arr2 = new int[5] { 1, 3, 5, 8, 0 };
 int[] arr3 = { 4, 8, 5, 7, 1 }
+*/
+int n =10;
+int[] Arr = new int[n];
+int i =0;
+
+while (i < n)
+{
+    arr[i] = i + 1;
+}
