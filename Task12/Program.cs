@@ -72,14 +72,18 @@ else
 в эталонном решении такой вариант.
 */
 int a = 4796;
-int i = 0;
+int[] array = new list[0];
+int d = 0;
 int b = 0;
 
-while (i < a.ToString().Length)
+for (int i = 0; i < a.ToString().Length, i++)
 {
     b = a % 10;
-    //a /= 10;
-    i ++;
+    d = a / 10;
+    if (d < a.ToString().Length)
+    {
+        a 
+    }
 
 }
 System.Console.WriteLine(b);
