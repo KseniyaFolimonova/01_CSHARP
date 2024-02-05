@@ -34,15 +34,25 @@ for (int i = 0; i < a.Length; i++)
 [2 3 1 7 5 6 3] => [6 18 5] (элемент 7 не имеет пары)
 */
 
-int[] array = { 1, 3, 2, 4, 2, 3 };
+int[] array = { 1, 3, 2, 4, 2, 3, 18 };
 int[] result = new int[array.Length / 2];
+int middleIndexArray = 0;
+int middleElementArray = 0;
 
-for (int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
-{
+if (array.Length % 2 != 0)
+    {
+       middleIndexArray = array.Length / 2;
+       middleElementArray = array[array.Length / 2];
+       System.Console.WriteLine(middleElementArray + " The Element dosn`t has a pair");
+    }
+    for (int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
+    {
+
+    
     result[i] = array[i] * array[j];
 
     Console.Write($"{result[i]} ");
-}
+    }
 /*
 int[] arr = { 2, 3, 1, 7, 5, 6, 3 };
 int[] result = new int[arr.Length / 2];
