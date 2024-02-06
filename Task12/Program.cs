@@ -70,7 +70,7 @@ else
 показывает его цифры через запятую.
 Решить с обратным порядком цифр, 
 в эталонном решении такой вариант.
-*/
+
 int a = 4796;
 int[] array = new list[0];
 int d = 0;
@@ -87,3 +87,80 @@ for (int i = 0; i < a.ToString().Length, i++)
 
 }
 System.Console.WriteLine(b);
+*/
+/*
+Задайте одномерный массив из 10 целых чисел от 1 до 100. 
+Найдите количество элементов массива, значения которых 
+лежат в отрезке [10,90].
+
+Начальные условия:
+
+int[] array = {1, 5, 10, 20, 30, 40, 99, 4, 90, 3}; // Создание массива
+Выводится: 5
+*/
+/*
+int[] array = { 1, 5, 10, 20, 30, 40, 99, 4, 90, 3 };
+        int count = 0;
+
+        for (int i = 0; i < array.Length; i++)
+        {
+
+            if (array[i] >= 10 && array[i] <= 90)
+            {
+                count++;
+
+            }
+
+        }
+        System.Console.Write(count);
+*/
+/*
+Задайте массив на 10 целых чисел. Напишите программу, 
+которая определяет количество чётных чисел в массиве.
+
+Начальные условия:
+
+int[] array = {2, 5, 2, 3, 6, 3, 7, 8, 2, 4}; // Создание массива
+Выводится: 6
+
+
+int[] array = { 2, 5, 2, 3, 6, 3, 7, 8, 2, 4 };
+        int count = 0; 
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] % 2 == 0)
+            {
+                count++;
+            }
+        }
+        System.Console.WriteLine(count);
+*/
+/*
+Задайте массив из вещественных чисел с ненулевой дробной частью. 
+Найдите разницу между максимальным и минимальным элементов массива.
+
+Начальные условия:
+
+int[] array = {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01}; // Создание массива
+Выводится: 5.15
+*/
+        double[] array = {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01};
+        double minElementArray = array[0];
+        double maxElementArray = array[0];
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] < minElementArray)
+            {
+                minElementArray = array[i];
+                
+            }
+            else if (array[i] > maxElementArray)
+            {
+                maxElementArray = array[i];
+                
+            }
+        }
+        System.Console.WriteLine(maxElementArray -minElementArray);
+
+
