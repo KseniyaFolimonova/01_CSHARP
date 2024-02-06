@@ -43,7 +43,7 @@ if (array.Length % 2 != 0)
     {
        middleIndexArray = array.Length / 2;
        middleElementArray = array[array.Length / 2];
-       System.Console.WriteLine(middleElementArray + " The Element dosn`t has a pair");
+       System.Console.WriteLine(middleElementArray + " The Element dosn`t have a pair");
     }
     for (int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
     {
@@ -54,16 +54,13 @@ if (array.Length % 2 != 0)
     Console.Write($"{result[i]} ");
     }
 /*
-int[] arr = { 2, 3, 1, 7, 5, 6, 3 };
-int[] result = new int[arr.Length / 2];
-for (int i = 0, j = arr.Length - 1; i < arr.Length / 2; j--, i++)
-{
-    result[i] = arr[i] * arr[j];
+int[] array = { 1, 3, 2, 4, 2, 3 };
+int[] result = new int[array.Length / 2];
 
-}
-for (int i = 0; i < result.Length; i++)
+for (int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
 {
-    System.Console.Write($"{result[i]} ");
+    result[i] = array[i] * array[j];
+    Console.Write($"{result[i]} ");
 }
 */
 /* Домашка 1
