@@ -9,7 +9,7 @@ double CalculeteFormula(int a, int b, int c, int d)
 }
 double result = CalculeteFormula(1, 2, 3, 4);
 System.Console.WriteLine(result);
-
+*/
 void PrintSqueres (int limit)
 {
     int i = 1;
@@ -23,7 +23,7 @@ void PrintSqueres (int limit)
 PrintSqueres(5);
 PrintSqueres(10);
 PrintSqueres(15);
-*/
+
 
 
 
