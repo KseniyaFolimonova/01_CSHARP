@@ -1,4 +1,4 @@
-﻿static void ZeroEventElements(int[] arr)
+﻿void ZeroEventElements(int[] arr)
 {
 
     for (int i = 0; i < arr.Length; i++)
@@ -9,7 +9,7 @@
         }
     }
 }
-static void PrintArray(int[] arr)
+void PrintArray(int[] arr)
 {
     foreach (int e in arr)
     {
