@@ -20,8 +20,8 @@ int ConvertDigitsToNumber (int[] array)
     return number;
 }
 
-int[] array = {2, 3, 1};
+int[] ArrayForFunction = {1, 3, 2, 4, 2, 3};
 
-int num = ConvertDigitsToNumber(array);
+//int num = ConvertDigitsToNumber(array);
 
-System.Console.WriteLine(num);
+System.Console.WriteLine(ConvertDigitsToNumber(ArrayForFunction));
