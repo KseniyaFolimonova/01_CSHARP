@@ -1,4 +1,4 @@
-﻿/*
+﻿
 int[] GetRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -42,4 +42,3 @@ PrintArray(massive2);
 
 massive2 = FillArray(massive2, 5, 15);
 PrintArray(massive2);
-*/
