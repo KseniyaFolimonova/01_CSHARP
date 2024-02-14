@@ -55,7 +55,7 @@ bool IsInteresting(int value)
    // }
 }
 
-int GetSumOfDigits (int value)
+int GetSumOfDigits(int value)
 {
     int sum = 0; 
     while(value > 0)
