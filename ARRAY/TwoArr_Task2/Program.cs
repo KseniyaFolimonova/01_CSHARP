@@ -15,5 +15,4 @@ string GetLettersFromString(string s)
 }
 
 string str = Console.ReadLine();
-string result = GetLettersFromString(str);
-System.Console.WriteLine(result);
+System.Console.WriteLine(GetLettersFromString(str));
