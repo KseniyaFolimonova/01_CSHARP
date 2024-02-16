@@ -71,7 +71,7 @@ class Program
 int[] array = GetReversArray {1,4,12,78,5,46,9};
 PrintArray(array);
 
-void GetReversArray(int array)
+int[] GetReversArray(int array)
 {
 int temp = 0;
 for(int i = 0, j = array.Length - 1; i < array.Length/2; i++, j--)
@@ -80,8 +80,8 @@ for(int i = 0, j = array.Length - 1; i < array.Length/2; i++, j--)
     array[i] = array[j];
     array[j] = temp;
 }
+return array;
 
-System.Console.Write("Reversed array: ");
 }
 void PrintArray(int array)
 {
@@ -89,4 +89,5 @@ foreach (int item in array)
 {
     System.Console.Write(item + " ");
 }
+System.Console.Write("Reversed array: ");
 }
