@@ -1,6 +1,4 @@
-﻿
-
-/*
+﻿/*
 Задание 3. Совместная работа
 Семинар 5. Двумерные массивы
 20 мин
@@ -11,8 +9,7 @@
 2 3 4 3
 4 3 4 1 => [3 3 5]
 2 9 5 4
-
- */
+*/
 
 double[] GetMeansRows(int[,] matrix)
 {
@@ -37,10 +34,11 @@ double[] GetMeansRows(int[,] matrix)
 int[,] matrix = GetArray(3, 4);
 PrintMatrix(matrix);
 
-double[] means = GetMeansRows(matrix);
+//double[] means = GetMeansRows(matrix);
 
-foreach (double number in means)
+void PrintMatrix(int[,] marrix)
+foreach (double number in GetMeansRows(matrix))
 {
-    Console.Write($"{number:f}  ");
+    Console.Write($"{number:f}  "); // f 2 знака после запятой
 }
 Console.WriteLine();
