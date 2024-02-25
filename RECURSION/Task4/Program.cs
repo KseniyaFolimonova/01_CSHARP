@@ -9,7 +9,9 @@ bool IsLetter(char ch)
 
 bool IsVowels(char ch)
 {
-    string vowels = "aeyuioAEYUIO";
+    string vowels = "aeyuio"; //AEYUIO
+    vowels += vowels.ToUpper();
+    
     for (int i = 0; i < vowels.Length; i++)
     {
         if (ch == vowels[i])
