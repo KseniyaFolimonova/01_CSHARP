@@ -1,0 +1,13 @@
+-- CREATE DATABASE LESSON_1; -- создается база
+USE LESSON_1; -- обращение к базе данных
+CREATE TABLE STUDENTS ( -- создаю таблицу
+ID INT AUTO_INCREMENT PRIMARY KEY, -- ДАЮ ПЕРВИЧНЫЙ КЛЮЧС АВТОМАТИЧЕСКОЙ НУМЕРАЦИЕЙ
+NAME VARCHAR (45), 
+COURSE_NAME VARCHAR (45), -- указали поле + тип данных формат ТЕКСТ
+DR DATE NOT NULL,
+EMAIL VARCHAR (55),
+PHONE_NUMBER BIGINT NOT NULL);
+
+INSERT INTO STUDENTS (NAME, COURSE_NAME, DR, EMAIL, PHONE_NUMBER)
+VALUES
+(
